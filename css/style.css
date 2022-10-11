@@ -67,6 +67,8 @@ p {
 }
 .page-header {
   border-bottom: 1px solid #ececec;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 .site-nav .link {
   color: var(--Primary-text-color);
@@ -79,8 +81,6 @@ p {
 .site-nav {
   display: flex;
   margin-left: 93px;
-  padding-top: 32.5px;
-  padding-bottom: 32.5px;
 }
 .site-nav .item {
   margin-right: 50px;
@@ -124,6 +124,8 @@ p {
 .hero {
   background-color: var(--hero-footer-color-background);
   text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 .hero-title {
   color: var(--white-text-color);
@@ -132,7 +134,7 @@ p {
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  padding-top: 200px;
+
   margin-bottom: 30px;
 }
 
@@ -153,11 +155,13 @@ p {
   padding: 10px 32px;
   min-width: 216px;
   height: 50px;
-  margin-bottom: 200px;
 }
 .button-hero:hover,
 .button-hero:focus {
   background-color: var(--accent-hover-color);
+}
+.hero-title-button {
+  margin-bottom: 200px;
 }
 /* ПЕРЕВАГИ */
 .title-benefits {
@@ -196,6 +200,9 @@ p {
 .directions-list {
   display: flex;
   gap: 30px;
+}
+.section {
+  padding-bottom: 94px;
 }
 
 /* ФОН КОМАНДА */
@@ -255,6 +262,7 @@ p {
   display: inline-block;
   margin-bottom: 9px;
 }
+
 .whitetext:hover,
 .whitetext:focus {
   color: var(--accent-color);
@@ -268,11 +276,14 @@ p {
   display: inline-block;
   margin-bottom: 9px;
 }
+.contacts-footer .last {
+  margin-bottom: 0px;
+}
 .contacts-footer .text:hover,
 .contacts-footer .text:focus {
   color: var(--accent-color);
 }
-.page-footer .container {
+.page-footer {
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -313,9 +324,7 @@ p {
   font-size: 16px;
   line-height: 1.87;
 }
-.section-portfolio img {
-  margin-bottom: 20px;
-}
+
 .filter-list {
   display: flex;
   justify-content: center;
@@ -323,7 +332,7 @@ p {
 }
 
 .filter-list .list {
-  margin-right: 30px;
+  margin-right: 8px;
 }
 .filter-list .list:last-child {
   margin-right: 0px;
@@ -344,10 +353,9 @@ p {
   width: 370px;
 }
 
-.portfolio-item h2 {
+.item-text {
   padding-left: 24px;
-}
-.portfolio-item p {
-  padding-left: 24px;
+  padding-top: 20px;
   padding-bottom: 20px;
+  padding-right: 24px;
 }
