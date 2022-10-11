@@ -213,10 +213,10 @@ p {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
   text-align: center;
-  padding-bottom: 30px;
 }
-.image-team {
-  margin-bottom: 30px;
+
+.teamtext {
+  padding: 30px 50px 30px 50px;
 }
 .title-name {
   font-weight: 500;
