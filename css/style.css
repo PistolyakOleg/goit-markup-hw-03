@@ -204,7 +204,9 @@ p {
 .section {
   padding-bottom: 94px;
 }
-
+.section img {
+  display: block;
+}
 /* ФОН КОМАНДА */
 
 .section-team .list {
@@ -235,6 +237,9 @@ p {
 .team-list {
   display: flex;
   gap: 30px;
+}
+.image-team {
+  display: block;
 }
 /* ПАРАГРАФИ */
 
